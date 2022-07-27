@@ -10,7 +10,7 @@ const dogs = [
         hasBeenLiked: false
     },{
         name: "Bella",
-        avatar: "icons/dog3 1.png",
+        avatar: "icons/dog2.jpg",
         age: 43,
         bio: "Yup, that's my owner. U can meet him if you want",
         hasBeenSwiped: false,
@@ -18,7 +18,7 @@ const dogs = [
     },
     {
         name: "Teddy",
-        avatar: "icons/dog3 1.png",
+        avatar: "icons/dog3.jpg",
         age: 30,
         bio: "How you doin?",
         hasBeenSwiped: false,

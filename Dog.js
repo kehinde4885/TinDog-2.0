@@ -2,9 +2,12 @@
 import { dogs } from "./data.js"
 export { Dog }
 
+
+
 class Dog {
     constructor(data){
         Object.assign(this , data)
+        
     }
 
 
@@ -19,10 +22,17 @@ class Dog {
             </div>`
 
     }
+    
+    getLikeBadgeHtml(){
+        return `<img class="badge" src="icons/like-image.png" alt="">`
+    }
+    
+    getNopeBadgeHtml(){
+        return `<img class="badge" src="icons/nope-image.png" alt="">`
+    }
 
 
 }
-
 
 
 
